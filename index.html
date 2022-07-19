@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projectile Motion</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <canvas id="canvas" width="1500" height="600"></canvas>
+    <div class="group">
+        <input type="range" min="0" max="90" id="angle"><label for="angle">angle</label>
+    </div>
+    <div class="group">
+        <input type="range" min="0.1" max="10" step="0.1" id="speed"><label for="speed">speed</label>
+    </div>
+    <div class="group">
+        <input type="range" min="1" max="500" id="animation_speed"><label for="animation_speed">animation speed</label>
+    </div>
+    <div class="group btn">
+        <input type="button" id="start" value="start">
+        <input type="button" id="reset" value="reset">
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
